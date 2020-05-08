@@ -31,6 +31,20 @@ $button.click(function () {
 })
 
 
+var $layer = $('.layer')
+var $close = $('.layer__btn')
+var $detail = $('.event__center-information--color')
+
+
+$detail.click(function(){
+  $layer.addClass("on")
+})
+
+$close.click(function(){
+  $layer.removeClass("on")
+})
+
+
 
 
 
