@@ -1,0 +1,280 @@
+@import url(./reset.css);
+* {
+	font-family: "Nanum Gothic", sans-serif !important;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+.clear:after, .footer__txt:after, .event__center:after, .event__center-wrap--classification:after {
+	display: block;
+	clear: both;
+	content: " ";
+}
+
+.top__con {
+	background-image: url(../assets/images/01/top_bg.png);
+	height: 116px;
+	min-width: 1200px;
+}
+
+.top__con-img {
+	padding-top: 30px;
+}
+
+.con__one {
+	background: url(../assets/images/02/bg00.jpg) no-repeat center 0;
+	width: 100%;
+	height: 634px;
+	position: relative;
+	min-width: 1200px;
+}
+
+.con__one-img-left {
+	padding-top: 58px;
+}
+
+.con__one-img-right {
+	position: absolute;
+	top: 150px;
+}
+
+.con__two {
+	background: url(../assets/images/03/bg01.jpg) no-repeat center 0;
+	height: 940px;
+	min-width: 1200px;
+}
+
+.con__two-img {
+	padding-top: 100px;
+}
+
+.con__three {
+	background: url(../assets/images/04/bg02.jpg) no-repeat center 0;
+	height: 930px;
+	min-width: 1200px;
+}
+
+.con__three-img {
+	padding-top: 105px;
+}
+
+.con__four {
+	background: url(../assets/images/05/bg03.jpg) no-repeat center 0;
+	height: 1500px;
+	min-width: 1200px;
+}
+
+.con__four-img {
+	padding-top: 60px;
+}
+
+.con__five {
+	background: url(../assets/images/06/bg04.jpg) no-repeat center 0;
+	height: 1064px;
+	min-width: 1200px;
+}
+
+.footer {
+	min-width: 1200px;
+	width: 100%;
+	background: #fffcf1;
+	text-align: center;
+	font-size: 13px;
+	line-height: 17px;
+	padding-bottom: 155px;
+	overflow: hidden;
+}
+
+.footer__wrap {
+	min-width: 1200px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+.footer__address {
+	font-size: 13px;
+	line-height: 17px;
+	position: relative;
+	margin-bottom: 2px;
+}
+
+.footer__txt {
+	padding: 0 5px;
+	display: inline-block;
+	position: relative;
+	color: #4c4c4c;
+}
+
+.footer__txt--before::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 4px;
+	left: -2px;
+	width: 1px;
+	height: 12px;
+	background-color: #4b4b4b;
+}
+
+.footer__copyright {
+	color: #767676;
+	font-size: 12px;
+	margin-top: 2px;
+}
+
+.event {
+	position: fixed;
+	background: #2f3855 url(../assets/images/07_header/db_bg.jpg) no-repeat center;
+	height: 160px;
+	width: 100%;
+	min-width: 1200px;
+	z-index: 1000;
+	bottom: 0;
+}
+
+.event__wrap {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+.event__left-img {
+	position: absolute;
+	top: 35px;
+	left: 50px;
+}
+
+.event__right-img {
+	position: absolute;
+	top: 25px;
+	right: -24px;
+	cursor: pointer;
+}
+
+.event__center {
+	width: 300px;
+	text-align: center;
+	margin: 0 10px;
+	position: relative;
+	top: 33px;
+	left: 314px;
+	float: left;
+}
+
+.event__center-wrap {
+	display: flex;
+	margin-bottom: 5px;
+}
+
+.event__center-wrap--check {
+	margin-top: 16px;
+}
+
+.event__center-wrap--classification {
+	float: left;
+}
+
+.event__center-name {
+	width: 50px;
+	color: #fff;
+	line-height: 1.9;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.event__center-name--letter {
+	letter-spacing: 5.87px;
+}
+
+.event__center-name--width {
+	width: 70px;
+	letter-spacing: 1px;
+}
+
+.event__center-nameing {
+	width: 220px;
+	height: 30px;
+	padding-left: 8px;
+	color: #4c4c4c;
+	font-size: 12px;
+	line-height: 16px;
+	margin-left: 4px;
+	letter-spacing: 0.5px;
+}
+
+.event__center-nameing--two {
+	width: 210px;
+	height: 30px;
+	color: #4c4c4c;
+	font-size: 12px;
+	line-height: 16px;
+	margin-left: 5px;
+	padding-left: 10px;
+}
+
+.event__center-checkbox {
+	width: 22px;
+	height: 22px;
+	bordeR: 1px solid #000;
+	vertical-align: -8px;
+	margin: 0px 5px 0 0;
+	float: left;
+	cursor: pointer;
+}
+
+.event__center-checkbox--size {
+	width: 30px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+}
+
+.event__center-information {
+	float: left;
+	line-height: 0.7;
+	margin: 4px 0 0 0px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 0.4px;
+}
+
+.event__center-information--color {
+	color: #ccc;
+	margin-left: 5px;
+}
+
+.event__center-information--color:hover {
+	cursor: pointer;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.event__center-classification {
+	color: #fff;
+	line-height: 1.9;
+	font-size: 15px;
+	letter-spacing: 1px;
+	float: left;
+	margin-right: 20px;
+}
+
+.event__center-item {
+	display: flex;
+	margin-bottom: 5px;
+	width: 320px;
+}
+
+.event__center-item--top {
+	margin-top: 10px;
+}
+
+.event__left-img {
+	background: url();
+}

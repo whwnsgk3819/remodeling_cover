@@ -1,0 +1,1 @@
+"use strict";var $button=$(".event__right-img"),templateParams={name:"Cho",notes:"Check this out!"};$button.click(function(){emailjs.sendForm("gmail","template_t5W1kiSU","#test","user_z41T5sTQoaaI9gRKKkEIK").then(function(t){console.log("SUCCESS!",t.status,t.text)},function(t){console.log("FAILED...",t)})});
