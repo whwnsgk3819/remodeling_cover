@@ -20,7 +20,7 @@
   }
 }
 .top__con{
-  background-image: url(../assets/images/01/top_bg.png);
+  background: url(../assets/images/01/top_bg.png) no-repeat center 0;
   height: 116px;
   min-width: 1200px;
   
@@ -255,14 +255,11 @@
   position: fixed;
   left: 0;
   top: 160px;
-  opacity: 0;
-  transition: all 0.2s linear;
   width: 100%;
+  z-index: 10;
+  display: none;
 }
-.on{
-  opacity: 1;
-  z-index: 3000000;
-}
+
 .layer__wrap{
   position: relative;
   max-width: 800px;
@@ -317,4 +314,7 @@
   text-align: center;
   letter-spacing: -0.5px;
   color: #4c4c4c;
+}
+label{
+  color:white;
 }

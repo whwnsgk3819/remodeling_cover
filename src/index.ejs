@@ -40,20 +40,20 @@
       <div class="footer__copyright">Copyright ⓒ 수리수리집수리 All rights reserved</div>
     </div>
   </footer>
-  <div class="event">
+  <form class="event" id="send">
     <div class="event__wrap">
       <img class="event__left-img" src="./assets/images/07_header/db_logo.png" alt="">
       <div class="event__center">
         <div class="event__center-wrap">
           <div class="event__center-name event__center-name--letter">이   름</div>
-          <input type="text" class="event__center-nameing" title="이름" placeholder="이름을 입력해주세요.">
+            <input type="text" name="user_name" id="userName" class="event__center-nameing" title="이름" placeholder="이름을 입력해주세요."/>
         </div>
         <div class="event__center-wrap">
           <div class="event__center-name">연락처</div>
-          <input type="text" class="event__center-nameing" title="이름" placeholder="연락처를 입력해주세요.">
+            <input type="text" name="user_phone" id="userPhone" class="event__center-nameing" title="연락처" placeholder="연락처를 입력해주세요."/>
         </div>
         <div class="event__center-wrap event__center-wrap--check">
-          <input type="checkbox" id="check" class="event__center-checkbox" title="체크">
+          <input type="checkbox" name="is_agree" class="event__center-checkbox" title="체크">
           <div class="event__center-information">개인정보 보호방침 및 정보 수신 동의 
             <span class="event__center-information--color">[자세히보기]</span></div>
         </div>
@@ -61,24 +61,20 @@
       <div class="event__center">
         <div class="event__center-itembox">
           <div class="event__center-item">
-            <input type="checkbox" id="check" class="event__center-checkbox event__center-checkbox--size" title="체크">
+            <input type="checkbox" name="pp_data85[]" id="check1" class="event__center-checkbox event__center-checkbox--size" title="체크">
             <div class="event__center-classification">철거</div>
-            <input type="checkbox" id="check" class="event__center-checkbox event__center-checkbox--size" title="체크">
+            <input type="checkbox" name="pp_data86[]" id="check2"class="event__center-checkbox event__center-checkbox--size" title="체크">
             <div class="event__center-classification">원상복구</div>
           </div>
           <div class="event__center-item event__center-item--top">
             <div class="event__center-name event__center-name--width">문의내용</div>
-            <input type="text" class="event__center-nameing--two" title="이름" placeholder="문의내용을 간략하게 설명해주세요.">
+              <input type="text" name="user_inquiry" id="userInquiry" class="event__center-nameing--two" title="문의내용" placeholder="문의내용을 간략하게 설명해주세요."/>
           </div>
         </div>
-        <form action="" id="test">
-          <input type="text" name="testName"/>
-        </form>
-        
       </div>
       <img class="event__right-img" src="./assets/images/07_header/db_icon.png" alt="">
     </div>
-  </div>
+  </form>
   <div class="layer">
     <div class="layer__wrap">
       <div class="layer__btn">
